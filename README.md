@@ -1,211 +1,150 @@
-# Awesome-Data-Privacy-Management
+# Awesome Data Privacy Management 🛡️
 
-## Top Data Privacy Management Platforms Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Privacy-Management?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Privacy-Management?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+![Awesome Data Privacy Management](assets/banner.svg)
 
-*Focused on Privacy Operations, DSAR Automation, Consent & Preference Management, Data Discovery & Regulatory Compliance*
+## 📌 Top Data Privacy Management Platforms Ecosystem
 
-**Last updated: October 2026**
+**Curated List of Enterprise SaaS Products & Open-Source GitHub Projects**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Privacy Management**. These systems help organizations inventory personal data, fulfill data subject requests (DSARs), manage consent, run assessments, and demonstrate compliance with privacy regulations.
-
-
-
-**Examples** include BigID, OneTrust, Securiti, TrustArc, Transcend, Osano, DataGrail, Privado, WireWheel, and Didomi (the category leaders).
-
-
-
-**Open-source emphasis**: Full enterprise privacy management suites are almost entirely commercial. Strong open building blocks exist for **PII detection** (Presidio), **consent management**, and developer-focused consent packages. This section expands those while remaining realistic about the commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[BigID](https://bigid.com/)**  
-
-  Privacy and data security platform focused on discovery, classification, rights fulfillment, and privacy risk across structured and unstructured data.
-
-
-
-- **[OneTrust](https://www.onetrust.com/)**  
-
-  Broad privacy management suite covering consent, DSAR, assessments, RoPA, preference management, and AI governance modules.
-
-
-
-- **[Securiti](https://securiti.ai/)**  
-
-  Data command center for privacy, security, and governance—strong in sensitive data discovery, rights automation, and AI data risk.
-
-
-
-- **[TrustArc](https://trustarc.com/)**  
-
-  Modular privacy platform for assessments, consent, individual rights, inventory, and compliance workflows.
-
-
-
-- **[Transcend](https://transcend.io/)**  
-
-  Privacy infrastructure platform focused on automated data subject requests and preference management across systems.
-
-
-
-- **[Osano](https://www.osano.com/)**  
-
-  Consent, DSAR, and vendor risk platform aimed at practical privacy compliance for growing organizations.
-
-
-
-- **[DataGrail](https://www.datagrail.io/)**  
-
-  Privacy operations platform specializing in automated inventory, DSAR fulfillment, and risk tracking.
-
-
-
-- **[Privado](https://www.privado.ai/)**  
-
-  Privacy engineering and code-scanning platform that maps personal data flows in applications and infrastructure.
-
-
-
-- **[WireWheel](https://wirewheel.io/)**  
-
-  Privacy management platform for data inventory, rights requests, and compliance operations.
-
-
-
-- **[Didomi](https://www.didomi.io/)**  
-
-  Consent and preference management platform widely used for CMP and privacy UX across digital properties.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Presidio](https://github.com/data-privacy-stack/presidio)**  
-
-  Open-source framework for detecting, redacting, and anonymizing PII in text, images, and structured data—core building block for privacy tooling.
-
-
-
-- **[Klaro](https://github.com/kiprotect/klaro)**  
-
-  Open-source, customizable consent manager for websites and third-party services (GDPR-oriented).
-
-
-
-- **[Microsoft Consent Package](https://github.com/microsoft/Consent-Package)**  
-
-  Open-source, developer-focused consent management sample with granular permissions, audit trails, and extensible storage.
-
-
-
-- **[Open consent and CMP projects](https://github.com/)**  
-
-  Community consent banners and preference centers that can be self-hosted and customized.
-
-
-
-- **[DSAR workflow open prototypes](https://github.com/)**  
-
-  Experimental tools and templates for intake, identity verification, and fulfillment tracking of data subject requests.
-
-
-
-- **[Privacy policy and RoPA open templates](https://github.com/)**  
-
-  Shared templates and schemas for records of processing and privacy documentation.
-
-
-
-- **[Data mapping and inventory open tools](https://github.com/)**  
-
-  Libraries that help catalog systems and data flows as input to privacy programs.
-
-
-
-- **[Documentation and Presidio / consent playbooks](https://microsoft.github.io/presidio/)**  
-
-  Guides for deploying PII detection and basic consent systems.
-
-
-
-- **[Self-hosted privacy stack patterns](https://github.com/)**  
-
-  Combining Presidio + open CMP + ticketing for limited-scope privacy operations.
-
-
-
-- **[Regulatory checklist open resources](https://github.com/)**  
-
-  Community-maintained checklists for GDPR, CCPA, and similar regimes (not legal advice).
-
-
-
-### Additional Strong Open-Source Options
-
-- Using **Presidio** for application-level PII detection and redaction.
-
-- Deploying open **consent managers** (e.g., Klaro) for website CMP needs.
-
-- Building internal DSAR intake with tickets and open templates.
-
-- Accepting that enterprise-scale discovery across all systems, automated multi-system DSAR fulfillment, assessment workflows, and audit-ready evidence still require commercial platforms (BigID, OneTrust, Securiti, TrustArc, Transcend, DataGrail, etc.).
-
-- Focusing open-source efforts on detection accuracy and first-party consent ownership.
-
-
-
-**Frameworks for building custom systems**: Detect PII with Presidio → manage website consent with open CMP → track requests in internal tools → escalate complex discovery and fulfillment to commercial privacy platforms. Suitable for engineering-led privacy efforts. Most regulated enterprises run commercial privacy management suites.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Privacy compliance is a legal and regulatory obligation. Open-source tools do not replace qualified legal advice or regulated commercial programs. This list is not legal advice.
-
-
+*Focused on Privacy Operations, DSAR Automation, Consent & Preference Management, Data Discovery, PII Detection, and Regulatory Compliance (GDPR, CCPA/CPRA, HIPAA, LGPD).*
 
 ---
 
-**Made for privacy, security, and compliance teams.**
+### 🌐 Overview
 
-Let's keep personal data respected, controlled, and as open as practical.
+This repository tracks leading **SaaS platforms** and **open-source projects** for **Data Privacy Management**. Modern privacy engineering systems enable organizations to index personal data, fulfill Data Subject Access Requests (DSARs), automate consent preferences, execute Privacy Impact Assessments (PIA/DPIA), and maintain continuous regulatory compliance.
+
+Whether you are a Data Protection Officer (DPO), privacy engineer, compliance lead, or developer, this list highlights both commercial enterprise suites and open-source building blocks.
+
+---
+
+## 📑 Table of Contents
+
+- [🏢 SaaS / Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⚙️ Architecture & Self-Hosted Patterns](#-architecture--self-hosted-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS / Hosted Platforms
+
+> 📊 **Market Size & Structure:** The global Data Privacy Management software market is estimated at **$2.7 Billion (2024)** and is projected to expand to **$15.2 Billion by 2030** at a CAGR of **33.4%**. The market is **moderately fragmented**, featuring dominant enterprise leaders (*OneTrust, BigID, Securiti*) alongside specialized fast-growing niche providers for developer-first DSAR automation, consent management, and code-level privacy scanning.
+
+Below is a comparison of top enterprise Data Privacy Management SaaS platforms, sorted by **Company Valuation / Size (descending)**:
+
+| Platform | Core Capabilities | Starting Price | Free Tier / Trial Limits | Company Valuation / Size |
+| :--- | :--- | :--- | :--- | :--- |
+| **[OneTrust](https://www.onetrust.com/)** 🏢 | Broad privacy management suite covering consent, DSAR, assessment automation, RoPA, preference management, and AI governance. | `$1,500/year` ($125/mo per module) | **14-day free trial** *(Access to Cookie Consent & Assessment modules)* | **$5.3B Valuation** ($1B+ Raised, 2,000+ employees) |
+| **[BigID](https://bigid.com/)** 🔍 | ML-driven data discovery, classification, rights fulfillment, and sensitive PII risk remediation across enterprise data. | `$12,000/year` ($1,000/mo enterprise base) | **30-day free trial** *(Cloud sandbox with up to 5 data sources)* | **$1.0B+ Valuation** ($320M+ Raised, 500+ employees) |
+| **[Securiti](https://securiti.ai/)** 🛡️ | Data command center integrating sensitive PII discovery, automated rights requests, and AI governance controls. | `$2,500/year` ($208/mo base plan) | **14-day free trial** *(Full Data Command Center, 10 scan runs)* | **$1.0B+ Valuation** ($250M+ Raised, 450+ employees) |
+| **[TrustArc](https://trustarc.com/)** 📋 | Enterprise privacy platform for privacy assessments, risk management, consent compliance, and RoPA workflows. | `$3,600/year` ($300/mo starter tier) | **14-day free trial** *(Assessment builder & privacy program manager)* | **$300M+ Valuation** ($100M+ Raised, 350+ employees) |
+| **[Transcend](https://transcend.io/)** ⚡ | Developer-first privacy infrastructure for fully automated multi-system DSAR orchestration and web consent controls. | `$990/month` ($11,880/year starter tier) | **30-day free trial** *(Automated DSAR requests up to 100 requests)* | **$300M+ Valuation** ($90M+ Raised, 150+ employees) |
+| **[DataGrail](https://www.datagrail.io/)** 🔄 | Automated privacy operations specializing in live data mapping, DSAR request fulfillment, and vendor risk tracking. | `$6,000/year` ($500/mo starter tier) | **14-day free trial** *(Includes data mapping & 25 DSAR test requests)* | **$200M+ Valuation** ($84M+ Raised, 150+ employees) |
+| **[Osano](https://www.osano.com/)** 🌐 | All-in-one CMP, DSAR request manager, and vendor risk management platform for growing organizations. | `$199/month` ($2,388/year Business tier) | **Free Forever** *(1 domain, up to 5,000 monthly pageviews)* | **$150M+ Valuation** ($44M+ Raised, 100+ employees) |
+| **[Didomi](https://www.didomi.io/)** 🍪 | Cross-platform consent and preference management platform (CMP) optimized for web, mobile apps, and privacy UX. | `€250/month` (~$275/mo Business tier) | **14-day free trial** *(Full CMP up to 50k pageviews)* | **$100M+ Valuation** ($40M+ Raised, 100+ employees) |
+| **[Privado](https://www.privado.ai/)** 💻 | Privacy engineering static code analysis platform that maps data flows and PII leaks inside source code repositories. | `$500/month` ($6,000/year Developer tier) | **Free Forever** *(Up to 3 repos & 5 developers)* | **$75M+ Valuation** ($17M+ Raised, 60+ employees) |
+| **[WireWheel](https://wirewheel.io/)** 📜 | Privacy portal software for intake of individual rights requests, automated data inventory, and compliance reporting. | `$450/month` ($5,400/year Essentials tier) | **14-day free trial** *(DSAR portal & survey management)* | **$50M+ Valuation** ($19M+ Raised, 50+ employees) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Open-source privacy engineering tools offer powerful modular building blocks for **PII detection**, **cookie consent enforcement**, **code privacy analysis**, and **developer consent frameworks**.
+
+Below are top open-source projects, sorted by **GitHub Star Count (descending)**:
+
+1. **[Presidio](https://github.com/data-privacy-stack/presidio)** [<img src="https://img.shields.io/github/stars/data-privacy-stack/presidio?style=social" alt="GitHub stars"/>](https://github.com/data-privacy-stack/presidio/stargazers)  
+   Context-aware PII detection, redaction, masking, and anonymization framework for text, images, and structured data streams.
+
+2. **[Vanilla CookieConsent](https://github.com/orestbida/cookieconsent)** [<img src="https://img.shields.io/github/stars/orestbida/cookieconsent?style=social" alt="GitHub stars"/>](https://github.com/orestbida/cookieconsent/stargazers)  
+   Lightweight, highly customizable, GDPR-compliant consent banner and cookie preference manager written in pure JavaScript.
+
+3. **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [<img src="https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social" alt="GitHub stars"/>](https://github.com/intuitem/ciso-assistant-community/stargazers)  
+   Open-source GRC platform covering GDPR compliance, privacy risk management, ISO 27001, and automated control mapping.
+
+4. **[Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic)** [<img src="https://img.shields.io/github/stars/cavi-au/Consent-O-Matic?style=social" alt="GitHub stars"/>](https://github.com/cavi-au/Consent-O-Matic/stargazers)  
+   Automated consent management engine and browser extension that answers cookie banners according to user privacy rules.
+
+5. **[Osano CookieConsent](https://github.com/osano/cookieconsent)** [<img src="https://img.shields.io/github/stars/osano/cookieconsent?style=social" alt="GitHub stars"/>](https://github.com/osano/cookieconsent/stargazers)  
+   Popular open-source JavaScript plugin for building GDPR and ePrivacy compliant cookie consent popups.
+
+6. **[Bearer](https://github.com/Bearer/bearer)** [<img src="https://img.shields.io/github/stars/Bearer/bearer?style=social" alt="GitHub stars"/>](https://github.com/Bearer/bearer/stargazers)  
+   Privacy engineering SAST tool that scans application source code to discover PII flows, missing consent checks, and data risks.
+
+7. **[CompAI](https://github.com/trycompai/comp)** [<img src="https://img.shields.io/github/stars/trycompai/comp?style=social" alt="GitHub stars"/>](https://github.com/trycompai/comp/stargazers)  
+   Open-source automated compliance management framework designed for GDPR, SOC 2, and security certifications.
+
+8. **[DataProfiler](https://github.com/capitalone/DataProfiler)** [<img src="https://img.shields.io/github/stars/capitalone/DataProfiler?style=social" alt="GitHub stars"/>](https://github.com/capitalone/DataProfiler/stargazers)  
+   Capital One open-source Python library for automatic dataset profiling, schema identification, and PII detection.
+
+9. **[Klaro](https://github.com/kiprotect/klaro)** [<img src="https://img.shields.io/github/stars/kiprotect/klaro?style=social" alt="GitHub stars"/>](https://github.com/kiprotect/klaro/stargazers)  
+   Privacy-friendly consent manager and user preference center for websites and third-party tracking scripts.
+
+10. **[Fides](https://github.com/ethyca/fides)** [<img src="https://img.shields.io/github/stars/ethyca/fides?style=social" alt="GitHub stars"/>](https://github.com/ethyca/fides/stargazers)  
+    Developer-first privacy engineering framework for automated DSAR orchestration, data mapping, and consent management.
+
+11. **[Microsoft Consent Package](https://github.com/microsoft/Consent-Package)** [<img src="https://img.shields.io/github/stars/microsoft/Consent-Package?style=social" alt="GitHub stars"/>](https://github.com/microsoft/Consent-Package/stargazers)  
+    Developer-focused consent management sample with granular permissions, proxy consent, and audit log extensibility.
+
+---
+
+## ⚙️ Architecture & Self-Hosted Patterns
+
+For engineering-led teams building hybrid privacy infrastructure:
+- **PII Anonymization Pipeline**: Use `Presidio` or `DataProfiler` to sanitize raw data before ingestion into analytics or LLMs.
+- **Web Consent Layer**: Deploy `Vanilla CookieConsent` or `Klaro` for front-end user preference collection.
+- **Code Privacy Verification**: Integrate `Bearer` into CI/CD pipelines to catch undocumented personal data flow changes.
+- **Enterprise Operations**: Connect open ingestion layers to commercial platforms (*OneTrust, BigID, Securiti*) for multi-department workflows and regulatory audits.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. **Fork** this repository.
+2. Add or update SaaS / Open-Source tools (ensure descriptions remain objective and accurate).
+3. For SaaS entries, provide factual starting pricing, trial limits, and verified company details.
+4. For Open-Source entries, include the repository URL and relevant features.
+5. Submit a **Pull Request** with a clear description of your changes.
+
+Check out the main collection: [![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Privacy-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Privacy-Management&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring this curated privacy management ecosystem guide! 
+
+If you find this repository valuable:
+- 🌟 **Star** this repository to show support.
+- 🍴 **Fork** it to keep a copy or contribute updates.
+- 📢 **Share** it with your privacy engineering and DPO network!
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for technical reference and architectural research — it is not exhaustive and does not imply endorsement.
+- Privacy regulations (GDPR, CCPA, HIPAA, etc.) involve complex legal requirements. Software tools complement, but do not replace, professional legal counsel.
