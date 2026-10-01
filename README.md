@@ -64,7 +64,7 @@ Below is a comparison of top enterprise Data Privacy Management SaaS platforms, 
 
 Open-source privacy engineering tools offer powerful modular building blocks for **PII detection**, **cookie consent enforcement**, **code privacy analysis**, and **developer consent frameworks**.
 
-Below are top open-source projects, sorted by **GitHub Stars_Count (descending)**:
+Below are top open-source projects, sorted by **GitHub_Stars_Count (descending)**:
 
 1. **[Presidio](https://github.com/data-privacy-stack/presidio)** [<img src="https://img.shields.io/github/stars/data-privacy-stack/presidio?style=social" alt="GitHub_Stars"/>](https://github.com/data-privacy-stack/presidio/stargazers)  
    Context-aware PII detection, redaction, masking, and anonymization framework for text, images, and structured data streams.
