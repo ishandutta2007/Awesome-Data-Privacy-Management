@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Privacy-Management?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Privacy-Management?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Privacy-Management?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Privacy-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,39 +64,39 @@ Below is a comparison of top enterprise Data Privacy Management SaaS platforms, 
 
 Open-source privacy engineering tools offer powerful modular building blocks for **PII detection**, **cookie consent enforcement**, **code privacy analysis**, and **developer consent frameworks**.
 
-Below are top open-source projects, sorted by **GitHub Star Count (descending)**:
+Below are top open-source projects, sorted by **GitHub Stars_Count (descending)**:
 
-1. **[Presidio](https://github.com/data-privacy-stack/presidio)** [<img src="https://img.shields.io/github/stars/data-privacy-stack/presidio?style=social" alt="GitHub stars"/>](https://github.com/data-privacy-stack/presidio/stargazers)  
+1. **[Presidio](https://github.com/data-privacy-stack/presidio)** [<img src="https://img.shields.io/github/stars/data-privacy-stack/presidio?style=social" alt="GitHub_Stars"/>](https://github.com/data-privacy-stack/presidio/stargazers)  
    Context-aware PII detection, redaction, masking, and anonymization framework for text, images, and structured data streams.
 
-2. **[Vanilla CookieConsent](https://github.com/orestbida/cookieconsent)** [<img src="https://img.shields.io/github/stars/orestbida/cookieconsent?style=social" alt="GitHub stars"/>](https://github.com/orestbida/cookieconsent/stargazers)  
+2. **[Vanilla CookieConsent](https://github.com/orestbida/cookieconsent)** [<img src="https://img.shields.io/github/stars/orestbida/cookieconsent?style=social" alt="GitHub_Stars"/>](https://github.com/orestbida/cookieconsent/stargazers)  
    Lightweight, highly customizable, GDPR-compliant consent banner and cookie preference manager written in pure JavaScript.
 
-3. **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [<img src="https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social" alt="GitHub stars"/>](https://github.com/intuitem/ciso-assistant-community/stargazers)  
+3. **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [<img src="https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social" alt="GitHub_Stars"/>](https://github.com/intuitem/ciso-assistant-community/stargazers)  
    Open-source GRC platform covering GDPR compliance, privacy risk management, ISO 27001, and automated control mapping.
 
-4. **[Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic)** [<img src="https://img.shields.io/github/stars/cavi-au/Consent-O-Matic?style=social" alt="GitHub stars"/>](https://github.com/cavi-au/Consent-O-Matic/stargazers)  
+4. **[Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic)** [<img src="https://img.shields.io/github/stars/cavi-au/Consent-O-Matic?style=social" alt="GitHub_Stars"/>](https://github.com/cavi-au/Consent-O-Matic/stargazers)  
    Automated consent management engine and browser extension that answers cookie banners according to user privacy rules.
 
-5. **[Osano CookieConsent](https://github.com/osano/cookieconsent)** [<img src="https://img.shields.io/github/stars/osano/cookieconsent?style=social" alt="GitHub stars"/>](https://github.com/osano/cookieconsent/stargazers)  
+5. **[Osano CookieConsent](https://github.com/osano/cookieconsent)** [<img src="https://img.shields.io/github/stars/osano/cookieconsent?style=social" alt="GitHub_Stars"/>](https://github.com/osano/cookieconsent/stargazers)  
    Popular open-source JavaScript plugin for building GDPR and ePrivacy compliant cookie consent popups.
 
-6. **[Bearer](https://github.com/Bearer/bearer)** [<img src="https://img.shields.io/github/stars/Bearer/bearer?style=social" alt="GitHub stars"/>](https://github.com/Bearer/bearer/stargazers)  
+6. **[Bearer](https://github.com/Bearer/bearer)** [<img src="https://img.shields.io/github/stars/Bearer/bearer?style=social" alt="GitHub_Stars"/>](https://github.com/Bearer/bearer/stargazers)  
    Privacy engineering SAST tool that scans application source code to discover PII flows, missing consent checks, and data risks.
 
-7. **[CompAI](https://github.com/trycompai/comp)** [<img src="https://img.shields.io/github/stars/trycompai/comp?style=social" alt="GitHub stars"/>](https://github.com/trycompai/comp/stargazers)  
+7. **[CompAI](https://github.com/trycompai/comp)** [<img src="https://img.shields.io/github/stars/trycompai/comp?style=social" alt="GitHub_Stars"/>](https://github.com/trycompai/comp/stargazers)  
    Open-source automated compliance management framework designed for GDPR, SOC 2, and security certifications.
 
-8. **[DataProfiler](https://github.com/capitalone/DataProfiler)** [<img src="https://img.shields.io/github/stars/capitalone/DataProfiler?style=social" alt="GitHub stars"/>](https://github.com/capitalone/DataProfiler/stargazers)  
+8. **[DataProfiler](https://github.com/capitalone/DataProfiler)** [<img src="https://img.shields.io/github/stars/capitalone/DataProfiler?style=social" alt="GitHub_Stars"/>](https://github.com/capitalone/DataProfiler/stargazers)  
    Capital One open-source Python library for automatic dataset profiling, schema identification, and PII detection.
 
-9. **[Klaro](https://github.com/kiprotect/klaro)** [<img src="https://img.shields.io/github/stars/kiprotect/klaro?style=social" alt="GitHub stars"/>](https://github.com/kiprotect/klaro/stargazers)  
+9. **[Klaro](https://github.com/kiprotect/klaro)** [<img src="https://img.shields.io/github/stars/kiprotect/klaro?style=social" alt="GitHub_Stars"/>](https://github.com/kiprotect/klaro/stargazers)  
    Privacy-friendly consent manager and user preference center for websites and third-party tracking scripts.
 
-10. **[Fides](https://github.com/ethyca/fides)** [<img src="https://img.shields.io/github/stars/ethyca/fides?style=social" alt="GitHub stars"/>](https://github.com/ethyca/fides/stargazers)  
+10. **[Fides](https://github.com/ethyca/fides)** [<img src="https://img.shields.io/github/stars/ethyca/fides?style=social" alt="GitHub_Stars"/>](https://github.com/ethyca/fides/stargazers)  
     Developer-first privacy engineering framework for automated DSAR orchestration, data mapping, and consent management.
 
-11. **[Microsoft Consent Package](https://github.com/microsoft/Consent-Package)** [<img src="https://img.shields.io/github/stars/microsoft/Consent-Package?style=social" alt="GitHub stars"/>](https://github.com/microsoft/Consent-Package/stargazers)  
+11. **[Microsoft Consent Package](https://github.com/microsoft/Consent-Package)** [<img src="https://img.shields.io/github/stars/microsoft/Consent-Package?style=social" alt="GitHub_Stars"/>](https://github.com/microsoft/Consent-Package/stargazers)  
     Developer-focused consent management sample with granular permissions, proxy consent, and audit log extensibility.
 
 ---
